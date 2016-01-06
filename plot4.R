@@ -37,7 +37,7 @@ par(mfcol = c(2,2))
 # first graphic
 #
 with(projData,plot(date,Global_active_power, xlab = "",
-                   ylab = "Global Active Power (kilowatts)", type = "n"))
+                   ylab = "Global Active Power", type = "n"))
 with(projData,lines(date,Global_active_power))
 #
 # Second graphic
