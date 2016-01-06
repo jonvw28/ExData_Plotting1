@@ -60,5 +60,4 @@ with(projData,lines(date,Voltage))
 with(projData,plot(date,Global_reactive_power,xlab = "datetime", type ="n"))
 with(projData,lines(date,Global_reactive_power))
 #
-dev.copy(png,filename = "plot4.png")
 dev.off()
